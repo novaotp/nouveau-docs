@@ -8,7 +8,7 @@ sidebar_position: 1
 
 To organize your code into blocks, you can put them inside functions.
 
-A function's syntax is pretty straightforward : `fn <type> <identifier>(<parameters>) { ... }`.
+A function's syntax is pretty straightforward : `<return_type> <identifier>(<parameters>) { ... }`.
 
 ### Examples
 
@@ -17,7 +17,7 @@ Here are some practical examples.
 #### Without parameters
 
     ```nv
-    fn void greet() {
+    void greet() {
         /// Some code...
     }
     ```
@@ -25,7 +25,7 @@ Here are some practical examples.
 #### With parameters
 
     ```nv
-    fn int add(const int a, const int b) {
+    int add(int a, int b) {
         return a + b;
     }
     ```
@@ -33,7 +33,7 @@ Here are some practical examples.
 #### With parameters and default values
 
     ```nv
-    fn int add(const int a = 0, const int b = 0) {
+    int add(int a = 0, int b = 0) {
         return a + b;
     }
     ```
@@ -44,7 +44,7 @@ Calling a function is very simple too. You put the name of the function
 followed by the parameters between parentheses.
 
     ```nv
-    fn int add(const int a = 0, const int b = 0) {
+    int add(int a = 0, int b = 0) {
         return a + b;
     }
 
