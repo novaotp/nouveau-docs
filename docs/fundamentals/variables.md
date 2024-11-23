@@ -13,7 +13,7 @@ respectively allows or forbids assigning to our variable.
 
     ```nv
     /// An example of a constant variable
-    const string message = "Hello, World!";
+    string message = "Hello, World!";
     message = "Not allowed"; /// This will not compile
 
     /// An example of a mutable variable
@@ -33,7 +33,7 @@ You can assign a new value to a variable with the `=` operator.
 You can also assign the value of a variable to another variable.
 
     ```nv
-    const int counter = 0;
+    int counter = 0;
 
     mut int value = counter;
     ```
@@ -41,7 +41,7 @@ You can also assign the value of a variable to another variable.
 However, note that the types must still match.
 
     ```nv
-    const string message = "Hello, World!";
+    string message = "Hello, World!";
 
     const int counter = message; /// This will NOT compile because the type don't match.
     ```
