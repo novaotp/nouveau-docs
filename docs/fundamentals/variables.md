@@ -43,5 +43,5 @@ However, note that the types must still match.
     ```nv
     string message = "Hello, World!";
 
-    const int counter = message; /// This will NOT compile because the type don't match.
+    int counter = message; /// This will NOT compile because the type don't match.
     ```

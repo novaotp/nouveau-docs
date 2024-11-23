@@ -7,7 +7,7 @@ sidebar_position: 1
 To execute some code based on a given condition, you can use `if` statements.
 
     ```nv
-    mut bool is_valid = true;
+    bool is_valid = true;
 
     if (is_valid) {
         /// Some code...

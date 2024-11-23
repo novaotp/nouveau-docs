@@ -26,6 +26,7 @@ Here are some practical examples.
 
     ```nv
     int add(int a, int b) {
+    int add(int a, int b) {
         return a + b;
     }
     ```
@@ -33,6 +34,7 @@ Here are some practical examples.
 #### With parameters and default values
 
     ```nv
+    int add(int a = 0, int b = 0) {
     int add(int a = 0, int b = 0) {
         return a + b;
     }
@@ -44,6 +46,7 @@ Calling a function is very simple too. You put the name of the function
 followed by the parameters between parentheses.
 
     ```nv
+    int add(int a = 0, int b = 0) {
     int add(int a = 0, int b = 0) {
         return a + b;
     }
