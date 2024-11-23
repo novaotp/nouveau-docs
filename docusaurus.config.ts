@@ -37,7 +37,7 @@ const config: Config = {
             {
                 docs: {
                     sidebarPath: './sidebars.ts',
-                    editUrl: 'https://github.com/novaotp/nouveau'
+                    editUrl: 'https://github.com/novaotp/nouveau-docs/tree/main'
                 },
                 blog: {
                     showReadingTime: true,
@@ -89,8 +89,8 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'Tutorial',
-                            to: '/docs/intro'
+                            label: 'Docs',
+                            to: '/docs/introduction'
                         }
                     ]
                 },
@@ -120,12 +120,12 @@ const config: Config = {
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus'
+                            href: 'https://github.com/novaotp/nouveau'
                         }
                     ]
                 }
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+            copyright: `Copyright © ${new Date().getFullYear()} Nouveau`
         },
         prism: {
             theme: prismThemes.github,
